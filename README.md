@@ -25,7 +25,7 @@ The model is trained for 30 epochs with the ADAM optimizer at a base learning ra
 Prediction samples.
 
 <p align="center">
-  <img src="docs/Samples" width="95%">
+  <img src="docs/Samples.png" width="95%">
 </p>
 
 
