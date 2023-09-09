@@ -19,7 +19,7 @@ Ages are divided into 6 groups ['0-5', '6-18', '19-30', '31-45', '46-65', '66+']
 
 The model is built with a backbone of EfficientNet [1] for generating features and a classification head for producing classifier output. The EfficientNet model is a convolutional network with an emphasis on faster training speed and better parameter efficiency, which is a perfect tradeoff between performance and efficiency. I chose the EfficientNetV2S variation as its capacity is suitable for the given dataset size and complexity. Other models like ResNet and MobileNet are tested, which have either slower training times or worse validation accuracies.
 
-The ADAM optimizer is used for the training with a 0.001 base learning rate. The number of channels in the layers has been adjusted for optimal performance.
+The model is trained for 30 epoches with the ADAM optimizer at a base learning rate of 0.001. The number of channels in the layers has been adjusted for optimal performance.
 
 
 ## Model
