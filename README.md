@@ -51,8 +51,8 @@ Our released implementation is tested on.
 
 ### Dataset and Trained Model
 
-For dataset, put age_gender.csv under the root folder.
-For trained weights, place the checkpoint file under checkpoint folder
+For the dataset, put age_gender.csv under the root folder.
+For trained weights, place the checkpoint file under the checkpoint folder
 ```
 age-classifier
 ├── age_gender.csv
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 #### Testing
 
 ```
-python val.py 
+python evaluate.py 
 ```
 
 The script will display the images and give the predictions.
