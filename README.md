@@ -61,13 +61,6 @@ age-classifier
 ```
 
 
-### Installation
-
-```
-cd age-classifier
-pip install -r requirements.txt
-```
-
 ### Training and Testing
 
 #### Testing
